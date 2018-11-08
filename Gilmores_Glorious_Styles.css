@@ -1,0 +1,33 @@
+b{
+    text-align: center;
+    color: yellow;
+    font-size: 25px;
+    }
+    @font-face{
+    font-family: greatV;
+    src: url('https://rawgit.com/Mythius/uploads/master/GreatVibes-Regular.ttf');
+    }
+body{
+    font-family: greatV;
+    }
+h1{
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    }
+h2{
+    Color: yellow;
+    Text-align: Left;
+    Font-size: 35px;
+    }
+body{
+    text-align: center;
+    }
+br{
+    margin-bottom: 15px;
+    }
+    #searchinp{
+    height:20px;
+    width:650px;
+    }
+    

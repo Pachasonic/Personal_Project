@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eu-us">
+    <head>
+        <title>Gilmore's Glorious Goods</title>
+        <link rel="stylesheet" href="Gilmores_Glorious_Styles.css"
+    </head>
+        <body style="background-color:rgb(200,0,255)">
+
+            <h1 style="text align:center;color:yellow"> Welcome To Gilmore's Glorious Goods </h1>
+
+            <button style="width:700px;height:40px" id=search><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png" width="20px" height="auto"><input id='searchinp' placeholder='search'></button>
+            <br>
+            <b> Where Any and All Magic Items Are Sold </b>
+
+            <p id='out'></p>
+
+            <h2>Daily Deals</h2>
+            <img src="https://lh3.googleusercontent.com/-teYonSIN4uM/WtjY8zCepYI/AAAAAAAAAgU/EV8YU_M201Qj-nnCx5ki37e62spTfP8SACK8BGAs/s512/2018-04-19.png" Width="730px" height="auto">
+            <h2> Newcomers
+
+            <img src="https://lh3.googleusercontent.com/-eCMe27e84-A/WtjZutfI36I/AAAAAAAAAgs/uRvCCSCTIAko_3epHY_b00ncjcjokX6HgCK8BGAs/s512/2018-04-19.png" width="730px" height="auto">
+
+            <p> Search by Rarity </pr>
+            <br>
+
+            <button style="font-size:18px"> Common Items </button>
+
+            <button style="font-size:18px"> Uncommon Items </button>
+
+            <button style="font-size:18px"> Rare Items </button>
+
+            <button style="font-size:18px"> Very Rare Items </button>
+
+            <button style="font-size:18px"> Legendary Items </button>
+            <br>
+
+            <p> Search by Item Type
+            <br>
+
+            <button style="font-size:18px"> Armor </button>
+
+            <button style="font-size:18px"> Potions </button>
+
+            <button style="font-size:18px"> Spell Scrolls </button>
+
+            <button style="font-size:18px"> Weapons</button>
+
+            <button style="font-size:18px"> Wonderous Items </button>
+
+            <button style="font-size:18px"> Ring </button>
+
+            <button style="font-size:18px"> Rod </button>
+
+            <button style="font-size:18px"> Wand </button>
+            <br>
+
+            <a>
+            href="https://www.youtube.com/watch?v=i-p9lWIhcLQ&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i">Watch for more information</a>
+
+            <p style="text-align:center"> Come find us in 211 Cloudtop District, Eiman or 835 Castle Whitestone </p>
+
+            <script>
+            function get(id){return document.getElementById(id);}
+            function html(id,html){get(id).innerHTML = html;}
+            function show(id){get(id).style.visibility=null;}
+            function hide(id){get(id).style.visibility='hidden';}
+
+            get('search').addEventListener('click',function(){
+            var src=get('searchinp').value;
+            html('out','You searched for:' + src);
+            });
+
+
+            </script>
+
+</body>
+</html>
+
